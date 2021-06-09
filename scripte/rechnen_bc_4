@@ -1,0 +1,12 @@
+#!/bin/bash
+
+var1=1.23
+var2=2.34
+
+#Addieren, Genauigkeit 3 nach dem Komma
+gesamt=`echo "scale=2 ; $var1+$var2 " | bc`
+echo $gesamt
+
+#Quadratwurzel
+varSQRT=`echo "scale=5 ; sqrt($var1)" | bc`
+echo $varSQRT

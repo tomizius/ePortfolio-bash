@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Script-Name: userinfo
+
+# zeigt das aktuelle Datum an
+date
+
+echo "Ich bin ..."
+whoami
+
+# alternativ, erzeugt die gleiche Ausgabe
+echo "Ich bin $(whoami)"
+
+# erzeugt eine new line
+echo -e "\n"
+
+who
+
+# Name des Hostsystems
+
+echo "Name des Host-systems $(hostname)"

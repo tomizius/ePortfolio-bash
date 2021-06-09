@@ -1,0 +1,19 @@
+# Script-Name: rechnen
+
+number=100
+number+=1
+echo $number
+
+string="ich bin ein "
+string+="string"
+echo $string
+
+typeset -i realNumber
+realNumber=100
+realNumber+=1
+echo $realNumber
+
+z=$((55+5))
+echo $z
+z=$((55/5))
+echo $z

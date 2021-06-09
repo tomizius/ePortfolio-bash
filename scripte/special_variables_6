@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#Übergabeparameter $1-$9 alle zusammen $@/$* und die Anzahl $#
+echo $1
+echo $2
+echo $3
+echo $*
+echo $@
+echo $#
+
+#Name des Scripts
+echo $0
+
+#Prozessnummer des Scripts
+echo $$
+
+#Random
+echo $RANDOM
+echo $RANDOM
+echo $RANDOM
+echo $HOME
+echo $PATH
+
+#Beendigungsstatus eines Scripts
+echo $?
+#0-255 möglich
+exit 127

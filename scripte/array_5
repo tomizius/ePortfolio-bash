@@ -1,0 +1,22 @@
+#/!bin/bash
+#Werte zuweisen
+array=(null eins zwei drei vier)
+echo ${array[0]}
+echo ${array[1]}
+echo ${array[2]}
+echo ${array[4]}
+
+array[4]="nicht mehr vier"
+
+#Alle Elemente ausgeben
+echo ${array[*]}
+
+#Länge von Element 3 ermitteln
+echo ${#array[2]}
+
+#Anzahl aller Elemente im Array ausgeben
+echo ${#array[*]}
+
+#Element löschen mit unset
+unset ${array[4]}
+echo ${array[*]}

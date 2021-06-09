@@ -1,0 +1,4 @@
+# Script-name: finduser
+
+# gibt alle Dateien des Users thomas auf dem Bildschirm aus
+find / -user thomas -print 2>/dev/null
